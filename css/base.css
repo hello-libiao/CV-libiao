@@ -244,6 +244,16 @@ p.myid{
 .beian{
     font-size: 12px;
 }
+.lbsize{
+	font-size: 30px;
+}
+#wl{
+	animation: donghua 10s;
+}
+@keyframes donghua{
+		0%   {opacity: 0;}
+		100% {opacity:1;color: black;}
+}
 .art-img >img{
     width: auto;
     height: auto;
